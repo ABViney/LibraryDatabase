@@ -1,0 +1,20 @@
+cardID - 6 digits (xx-xxx-x)
+branchID - 4 digits (x-xxx)
+authID - 5 digits (xxxxx)
+pubID - 5 digits (xx-xxx)
+bookID - 7 digits (xxxxx-xx)
+
+Dependencies:
+Book Loans - bookID, branchID, cardID
+Book Copies - bookID, branchID
+book - authID, pubID
+
+tbl_borrowers - 1000 rows
+tbl_library_branch - 91 rows -- Rip all libraries from the public library directory for West Virginia
+tbl_book_loans - 700 rows
+
+tbl_book - 1000 rows
+tbl_author - 781 rows
+tbl_publisher - 45 rows
+
+tbl_book_copies - 100 - Random.nextInt(12)-3 if below 0 set as 0
